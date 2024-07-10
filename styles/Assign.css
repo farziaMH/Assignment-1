@@ -13,15 +13,11 @@
 
 
 /*header*/
-.header{
-    background-image: url('../assets/Hero-bg.png');
-    height: 652;
-    width: 1440;
-}
 
-header .first{
+
+ .first{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     flex-direction: row;
     align-items:center;
     margin-bottom: 35px;
@@ -30,7 +26,16 @@ header .first{
     height: 131px;
 }
 .banner{
-  align-items: center;
+    background-image: url('../assets/Hero-bg.png');
+    background-size: cover;
+    max-width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    margin-bottom: 74px
 }
 .future{
     font-weight: 800;
